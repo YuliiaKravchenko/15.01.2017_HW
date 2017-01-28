@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+  <div class="chat-container">
+    <form action="/" id="login-form">
+      <input type="text" id="login" placeholder="Enter your name">
+      <button>Login</button>
+    </form>
+
+    <div id="messages-container">
+      
+    </div>
+    <div id="gifs-container">
+      
+    </div>
+    <form action="/" id="chat-form" hidden>
+      <input type="text" id="chat-message" placeholder="Type your message" disabled>
+      <button>Send</button>
+    </form>
+  </div>
+
+  <script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
